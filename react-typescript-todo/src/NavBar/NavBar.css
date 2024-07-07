@@ -1,0 +1,42 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 50px;
+
+}
+
+.navBar > a {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+.navBar > a.activeLink {
+  background-color: lightblue;
+  font-weight: bold;
+   width: 100%;
+}
+
+
+
+.bar{
+  font-size: large;
+  font-weight: 1000;
+  font-family:Arial, sans-serif;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color:rgb(51, 48, 48);
+  transition: box-shadow 0.3s, border 0.3s;
+    border: 2px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+

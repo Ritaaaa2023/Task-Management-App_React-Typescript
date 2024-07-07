@@ -1,0 +1,64 @@
+.input {
+  display: flex;
+  width: 95%;
+  position: relative;
+  align-items: center;
+  margin-left: 5px;
+}
+.input-form {
+  display: flex;
+  align-items: center;
+margin-top: 5px;
+}
+
+.input-form input {
+  flex: 1;
+  margin-right: 10px;
+
+}
+
+.input-form button {
+  margin-left: 10px;
+
+}
+
+.input-form>input,
+button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  color: #000;
+  margin: 5px 10px;
+}
+
+
+.input-form>input {
+  height: 8vh;
+  width: 80%;
+  max-width: 900px;
+  /* Set the maximum width */
+  margin: 0 auto;
+  /* Center the container */
+  box-shadow: 1px 1px 6px -2px #000;
+  background: #F3F8FF;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.input-form>input::placeholder {
+  font-size: 18px;
+  color: rgba(42, 40, 40, 0.377)
+}
+
+
+.input-form>button {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px;
+  background: #FFB534;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 10px;
+
+}
